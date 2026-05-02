@@ -19,7 +19,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=flat)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](www.linkedin.com/in/sherif-adel-2b5517280)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/elsherif-adel/)
 
 </div>
 
