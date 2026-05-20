@@ -4,8 +4,8 @@ import Navigation from "@/app/_components/Navigation";
 import { Josefin_Sans } from "next/font/google";
 
 const josefin = Josefin_Sans({
-  subsets: ["latin"], // Only load the Latin characters from this font
-  display: "swap", // Show text immediately using a fallback font, then swap to the real font when it loads.
+  subsets: ["latin"],
+  display: "swap",
 });
 
 import "@/app/_styles/globals.css";
@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
 
-        <div className="flex-1 px-8 py-12 grid">
+        <div className="flex-1 px-4 sm:px-8 py-8 sm:py-12 grid">
           <main className="max-w-7xl mx-auto w-full">
             <ReservationProvider>{children}</ReservationProvider>
           </main>

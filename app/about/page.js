@@ -13,13 +13,13 @@ export default async function Page() {
   const cabins = await getCabins();
 
   return (
-    <div className="grid grid-cols-5 gap-x-24 gap-y-32 text-lg items-center">
-      <div className="col-span-3">
-        <h1 className="text-4xl mb-10 text-accent-400 font-medium">
+    <div className="grid grid-cols-1 sm:grid-cols-5 gap-x-24 gap-y-12 sm:gap-y-32 text-base sm:text-lg items-center">
+      <div className="col-span-1 sm:col-span-3">
+        <h1 className="text-3xl sm:text-4xl mb-6 sm:mb-10 text-accent-400 font-medium">
           Welcome to The Wild Oasis
         </h1>
 
-        <div className="space-y-8">
+        <div className="space-y-6 sm:space-y-8">
           <p>
             Where nature&apos;s beauty and comfortable living blend seamlessly.
             Hidden away in the heart of the Italian Dolomites, this is your
@@ -41,16 +41,17 @@ export default async function Page() {
         </div>
       </div>
 
-      <div className="col-span-2">
+      <div className="col-span-1 sm:col-span-2">
         <Image
           src={image1}
           alt="Family sitting around a fire pit in front of cabin"
           placeholder="blur"
           quality={80}
+          className="w-full h-auto"
         />
       </div>
 
-      <div className="relative aspect-square col-span-2">
+      <div className="relative aspect-square col-span-1 sm:col-span-2">
         <Image
           src="/about-2.jpg"
           fill
@@ -59,12 +60,12 @@ export default async function Page() {
         />
       </div>
 
-      <div className="col-span-3">
-        <h1 className="text-4xl mb-10 text-accent-400 font-medium">
+      <div className="col-span-1 sm:col-span-3">
+        <h1 className="text-3xl sm:text-4xl mb-6 sm:mb-10 text-accent-400 font-medium">
           Managed by our family since 1962
         </h1>
 
-        <div className="space-y-8">
+        <div className="space-y-6 sm:space-y-8">
           <p>
             Since 1962, The Wild Oasis has been a cherished family-run retreat.
             Started by our grandparents, this haven has been nurtured with love
@@ -83,7 +84,7 @@ export default async function Page() {
           <div>
             <a
               href="/cabins"
-              className="inline-block mt-4 bg-accent-500 px-8 py-5 text-primary-800 text-lg font-semibold hover:bg-accent-600 transition-all"
+              className="inline-block mt-4 bg-accent-500 px-5 py-4 sm:px-8 sm:py-5 text-primary-800 text-base sm:text-lg font-semibold hover:bg-accent-600 transition-all"
             >
               Explore our luxury cabins
             </a>
