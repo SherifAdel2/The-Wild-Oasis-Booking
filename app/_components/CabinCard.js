@@ -7,7 +7,7 @@ function CabinCard({ cabin }) {
 
   return (
     <div className="flex border-primary-800 border">
-      {console.log("image:", image)}
+      {/* {console.log("image:", image)} */}
 
       <div className="flex-1 relative">
         <Image
